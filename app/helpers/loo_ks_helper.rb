@@ -1,0 +1,2 @@
+module LooKsHelper
+end

@@ -1,9 +1,10 @@
 Rails.application.routes.draw do
+  resources :looks
   get 'recipes/index'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
   root 'recipes#index'
-  # You can have the root of your site routed with "root"
+  # You can have the root of yoLOOKSur site routed with "root"
   # root 'welcome#index'
 
   # Example of regular route:

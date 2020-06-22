@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @look.Name %>
+</p>
+
+<p>
+  <strong>Ingredients:</strong>
+  <%= @look.Ingredients %>
+</p>
+
+<p>
+  <strong>Loves:</strong>
+  <%= @look.Loves %>
+</p>
+
+<%= link_to 'Edit', edit_look_path(@look) %> |
+<%= link_to 'Back', looks_path %>

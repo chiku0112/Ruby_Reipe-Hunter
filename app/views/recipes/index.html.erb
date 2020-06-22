@@ -1,12 +1,14 @@
 <h1> Recipes for <%=@search%> </h1>
+<h3> If you wana look for some other dish then do me a favour, in the search bar just add /?search=yourdishname :') I'll solve the issue asap! </h3>
 <table border ="1">
     <tr>
-        <th> Photo </th>
+        <th> Photo</th>
         <th> Title </th>
         <th> Ingredients </th>
+        
     </tr>
     <% if @recipes.nil? %>
-	    <h3>I am sorry. I didn't find any recipe! Kya bana rhe ho esa guru???</h3>
+	    <h3>I am sorry. I didnt find any recipe! Kya bana rhe ho esa guru???</h3>
     <% else %>
         <% @recipes.each do |recipe| %>  
         <tr>
