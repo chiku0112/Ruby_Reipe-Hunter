@@ -18,6 +18,7 @@ gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.7'
 
+gem 'rake'
 
 group :production do
   gem 'pg'
@@ -61,3 +62,5 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'httparty', '0.18.0'
 gem 'webmock'
+gem 'rspec'
+gem 'faker'
